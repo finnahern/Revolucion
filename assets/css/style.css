@@ -12,15 +12,17 @@ body{
     color: #3a3a3a;
 }
 
-header{
-    height: 60px;
-
-}
-
 h1, h2{
     font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
     color: #252525;
+}
+
+/* Header and nav bar */
+
+header{
+    height: 60px;
+
 }
 
 #logo{
@@ -66,4 +68,60 @@ header a{
 
 .active{
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* Hero image */
+
+#heroimage{
+    background: url('../images/mainbanner1.jpg') no-repeat center;
+    height: 600px;
+    width: 100%;
+    margin: 0;
+}
+
+/* Links section */
+
+#links{
+    width: 100%;
+    overflow: hidden;
+    left: 10%;
+    margin: 5%;
+}
+
+.page-link{
+    width: 20%;
+    height: 240px;
+    margin: 20%;
+
+    text-align: center;
+    color: white;
+}
+
+.page-link > h2{
+    color: white;
+    text-size-adjust: 50%;
+}
+
+#link1{
+    background: url('../images/div1.jpg') center;
+    margin: 0 auto;
+    display: inline-block;;
+}
+
+#link2{
+    background: url('../images/div2.jpg') center;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#link3{
+    background: url('../images/div3.webp') center;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#link4{
+    background: url('../images/div4.jpg') center;
+    margin: 0 auto;
+    display: inline-block;
 }
