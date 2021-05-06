@@ -71,11 +71,36 @@ header a{
 }
 
 #menu a:hover{
-    border-bottom: 0.1rem solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 .active{
-    border-bottom: 0.1rem solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Dropdown menu */
+
+.dropdown{
+    overflow: hidden;    
+}
+
+.dropdowncontent{
+    display: hidden;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+}
+
+.dropdowncontent a{
+    float: none;
+    padding: 1.2rem 1.6rem;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 /* Hero image */
@@ -157,5 +182,7 @@ footer{
     padding: 5%;
     color: #fff;
 }
+
+/* Google fonts import */
 
 @import url("https://fonts.googleapis.com/css2?family=Faustina&family=Libre+Baskerville&display=swap")
