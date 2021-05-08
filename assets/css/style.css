@@ -12,7 +12,6 @@ body{
     font-family: 'Faustina', serif;
     font-weight: 300;
     color: #3a3a3a;
-    width: 100%;
 }
 
 h1, h2{
@@ -30,33 +29,37 @@ p{
 header{
     height: 6rem;
     font-size: 160%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#flag{
+    margin: 0 0.5rem 0 0.5rem;
 }
 
 #logo{
-    float: left;
-    margin: 0 0 1rem 2rem;
+    display: flex;
+    align-items: center;
 }
 
 #flag{
     height: 3.5rem;
-    margin: 1rem 0 0 0;
-}
-
-#title{
-    font-size: 200%;
-    margin: 0 0 2rem 2rem;
-    display: inline;
 }
 
 header a{
     text-decoration: none;
 }
 
+nav{
+    display: flex;
+    align-content: center;
+}
+
 #menu{
     font-size: 110%;
     letter-spacing: 0.2rem;
     direction: rtl;
-    margin-top: 0;
 }
 
 #menu li{
@@ -80,12 +83,14 @@ header a{
 
 /* Dropdown menu */
 
-.dropdown{
-    overflow: hidden;    
-}
+.fa{
+    opacity: 0.8;
+    font-size: 80%;
+} 
 
 .dropdowncontent{
-    display: hidden;
+    display: none;
+    overflow: hidden;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
@@ -99,7 +104,7 @@ header a{
     text-align: left;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdowncontent {
     display: block;
 }
 
@@ -115,32 +120,31 @@ header a{
 /* Links section */
 
 #links{
-    width: 100%;
-    overflow: hidden;
-    margin: 5%;
-    
+    overflow: hidden; 
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0.8rem 0.8rem;
 }
 
 .page-link{
-    width: 48%;
     height: 240px;
-
     text-align: center;
     color: white;
+
+    width: calc(100% * (1/2) - 3.2rem);
+    flex-grow: 1;
+    display: inline-block;
+    margin: 0.8rem 0.8rem 0 0;
 }
 
 .page-link > h2{
     color: white;
 }
 
-#link1, #link2, #link3, #link4{
-    margin: 0 auto;
-    display: inline-block;
-}
-
 #link1{
     background: url('../images/div1.jpg') center no-repeat;
     background-size: 100%;
+    
 }
 
 #link2{
@@ -161,26 +165,24 @@ header a{
 /* footer */
 
 footer{
-    height: 100px;
+    height: 10rem;
     width: 100%;
     left: 0;
     bottom: 0;
     background-color: #3a3a3a;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.social-networks{
-    text-align: center;
-}
-
-.social-networks li{
-    display: inline;
-}
-
-.social-networks i{
+footer i{
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
     color: #fff;
+}
+
+footer a{
+    padding: 2%;
 }
 
 /* Google fonts import */
