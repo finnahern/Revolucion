@@ -1,81 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <meta name="description"
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <meta name="description">
 
-</head>
-<body>
-    <!--Header and nav bar-->
-    <header>
-        <a href="index.html"  id="logo">
-            <img src="assets/images/flag.png" id="flag">
-            <h1 id="title">La Revolución Cubana</h1>
-        </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="#">Contact</a>                    
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropbtn">  
-                        <i class="fa fa-caret-down"></i> Articles
-                    </a>
-                    <div class="dropdowncontent">
-                        <a href="#">Pre-Revolution Cuba</a>
-                        <a href="#">1959 - The Revolution</a>
-                        <a href="#">Post-Revolution Cuba</a>
-                        <a href="#">Timeline of Events</a>
-                    </div>      
-                </li>   
-                <li>
-                    <a href="index.html" class="active">Home</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+        <!-- Javascript function to toggle burger menu on click-->
+        <script>
+            function menuToggle() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
 
-    <!--Hero image, placeholder for now-->
-    <div id="heroimage">
-    </div>
-    
-    <section id="About">
+    </head>
+    <body>
+        <!--Header and nav bar-->
+        <header>
+            <a href="index.html"  id="logo">
+                <img src="assets/images/flag.png" id="flag">
+                <h1 id="title">La Revolución Cubana</h1>
+            </a>
 
-    </section>
+            <!-- Burger nav menu for mobile-->
+            <nav id="mobilenav">
+                <div id="navlinks">
+                    <a href="#">Pre-Revolution Cuba</a>
+                    <a href="#">1959 - The Revolution</a>
+                    <a href="#">Post-Revolution Cuba</a>
+                    <a href="#">Timeline of Events</a>
+                    <a href="#">Contact</a>   
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
 
-    <!--Links to article pages-->
-    <section id="links">
-        <div class="page-link" id="link1">
-            <h2>Pre-Revolution Cuba</h2>
+            <!-- Desktop nav bar -->
+            <nav id="desktopnav">
+                <ul id="menu">
+                    <li>
+                        <a href="#">Contact</a>                    
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">  
+                            <i class="fa fa-caret-down"></i> Articles
+                        </a>
+                        <div class="dropdowncontent">
+                            <a href="#">Pre-Revolution Cuba</a>
+                            <a href="#">1959 - The Revolution</a>
+                            <a href="#">Post-Revolution Cuba</a>
+                            <a href="#">Timeline of Events</a>
+                        </div>      
+                    </li>   
+                    <li>
+                        <a href="index.html" class="active">Home</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hero image -->
+        <div id="heroimage">
         </div>
-        <div class="page-link" id="link2">
-            <h2>1959 - The Revolution</h2>
-        </div>
-        <div class="page-link" id="link3">
-            <h2>Post-Revolution Cuba</h2>
-        </div>
-        <div class="page-link" id="link4">
-            <h2>Timeline of Events</h2>
-        </div>   
-    </section>
+        
+        <!-- About section -->
+        <section id="About">
 
-    <footer>
-        <a href="https://facebook.com" target="_blank" rel="noopener"
-        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-    
-        <a href="https://twitter.com" target="_blank" rel="noopener"
-        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+        </section>
 
-        <a href="https://youtube.com" target="_blank" rel="noopener"
-        aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+        <!--Links to article pages-->
+        <section id="links">
+            <div class="page-link" id="link1">
+                <h2>Pre-Revolution Cuba</h2>
+            </div>
+            <div class="page-link" id="link2">
+                <h2>1959 - The Revolution</h2>
+            </div>
+            <div class="page-link" id="link3">
+                <h2>Post-Revolution Cuba</h2>
+            </div>
+            <div class="page-link" id="link4">
+                <h2>Timeline of Events</h2>
+            </div>   
+        </section>
 
-        <a href="https://instagram.com" target="_blank" rel="noopener"
-        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-    </footer>
+        <!-- Footer -->
+        <footer>
+            <a href="https://facebook.com" target="_blank" rel="noopener"
+            aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+        
+            <a href="https://twitter.com" target="_blank" rel="noopener"
+            aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
 
-    <!-- font awesome script-->
-    <script src="https://kit.fontawesome.com/082df85970.js" crossorigin="anonymous"></script>
-</body>
+            <a href="https://youtube.com" target="_blank" rel="noopener"
+            aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+
+            <a href="https://instagram.com" target="_blank" rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+        </footer>
+
+        <!-- font awesome script-->
+        <script src="https://kit.fontawesome.com/082df85970.js" crossorigin="anonymous"></script>
+    </body>
 </html>

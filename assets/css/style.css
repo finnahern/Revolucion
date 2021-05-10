@@ -56,6 +56,21 @@ nav{
     align-content: center;
 }
 
+#mobilenav #navlinks{
+    display: none;
+}
+
+#mobilenav a.icon {
+    color: black;
+  }
+
+#desktopnav{
+    display: none;
+}
+
+
+/* Desktop nav bar */
+
 #menu{
     font-size: 110%;
     letter-spacing: 0.2rem;
@@ -112,7 +127,7 @@ nav{
 
 #heroimage{
     background: url('../images/mainbanner1.jpg') no-repeat center;
-    height: 60rem;
+    height: 55rem;
     width: 100%;
     margin: 0;
 }
