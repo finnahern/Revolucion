@@ -69,14 +69,15 @@ nav{
 
 .mobilenav a.icon {
     color: black;
-  }
+    display: flex;
+    align-items: center;
+}
 
 #navlinks{
     overflow: hidden;
     background-color: #f9f9f9;
     position: relative;
 }
-
 
 #desktopnav{
     display: none;
@@ -91,6 +92,7 @@ nav{
 }
 
 #menu li{
+    display: block;
     float: right;
     list-style-type: none;
     margin: 0 3rem 0 0;
@@ -121,7 +123,7 @@ nav{
     overflow: hidden;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 16rem;
 }
 
 .dropdowncontent a{
@@ -155,7 +157,7 @@ nav{
 }
 
 .page-link{
-    height: 240px;
+    height: 32rem;
     text-align: center;
     color: white;
 
