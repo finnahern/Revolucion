@@ -24,7 +24,7 @@ p{
     font-size: 160%;
 }
 
-/* Header and nav bar */
+/* Header */
 
 header{
     height: 6rem;
@@ -51,23 +51,36 @@ header a{
     text-decoration: none;
 }
 
+/* Mobile nav bar */
+
 nav{
     display: flex;
     align-content: center;
 }
 
-#mobilenav #navlinks{
+.mobilenav{
+    overflow: hidden;
+    position: relative;
+}
+
+.mobilenav #navlinks{
     display: none;
 }
 
-#mobilenav a.icon {
+.mobilenav a.icon {
     color: black;
   }
+
+#navlinks{
+    overflow: hidden;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
 
 #desktopnav{
     display: none;
 }
-
 
 /* Desktop nav bar */
 
