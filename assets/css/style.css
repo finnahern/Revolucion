@@ -141,8 +141,8 @@ nav{
 /* Hero image */
 
 #heroimage{
-    background: url('../images/mainbanner1.jpg') no-repeat center;
-    height: 55rem;
+    background: url('../images/mainbanner500.jpg') no-repeat center;
+    height: 50rem;
     width: 100%;
     margin: 0;
 }
@@ -156,7 +156,7 @@ nav{
     margin: 0 0 0.8rem 0.8rem;
 }
 
-.page-link{
+#links a{
     height: 32rem;
     text-align: center;
     color: white;
@@ -167,28 +167,39 @@ nav{
     margin: 0.8rem 0.8rem 0 0;
 }
 
-.page-link > h2{
-    color: white;
+.overflow{
+    overflow: hidden;
+    transform: scale(1);
+    transition: 0.3s;
 }
 
 #link1{
-    background: url('../images/div1.jpg') center no-repeat;
+    background: url('../images/div1500.jpg') center no-repeat;
     background-size: 100%;
 }
 
 #link2{
-    background: url('../images/div2.jpg') center no-repeat;
+    background: url('../images/div2500.jpg') center no-repeat;
     background-size: 100%;
 }
 
 #link3{
-    background: url('../images/div3.webp') center no-repeat;
+    background: url('../images/div3500.jpg') center no-repeat;
     background-size: 100%;
 }
 
 #link4{
-    background: url('../images/div4.jpg') center no-repeat;
+    background: url('../images/div4500.jpg') center no-repeat;
     background-size: 100%;
+}
+
+.page-link:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.page-link > h2{
+    color: white;
 }
 
 /* footer */
