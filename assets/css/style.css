@@ -156,21 +156,21 @@ nav{
     margin: 0 0 0.8rem 0.8rem;
 }
 
-#links a{
-    height: 32rem;
-    text-align: center;
-    color: white;
-
-    width: calc(100% * (1/2) - 3.2rem);
-    flex-grow: 1;
-    display: inline-block;
-    margin: 0.8rem 0.8rem 0 0;
-}
-
 .overflow{
     overflow: hidden;
     transform: scale(1);
     transition: 0.3s;
+}
+
+#links a{
+    height: 32rem;
+    width: calc(100% * (1/2) - 3.2rem);
+    flex-grow: 1;
+    display: inline-block;
+    margin: 0.8rem 0.8rem 0 0;
+
+    text-align: center;
+    color: white;
 }
 
 #link1{
