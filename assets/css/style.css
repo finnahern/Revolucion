@@ -127,11 +127,9 @@ nav{
 }
 
 .dropdowncontent a{
-    float: none;
     padding: 1.2rem 1.6rem;
     text-decoration: none;
     display: block;
-    text-align: left;
 }
 
 .dropdown:hover .dropdowncontent {
@@ -147,6 +145,25 @@ nav{
     margin: 0;
 }
 
+/* About section */
+
+#about{
+    display: block;
+    margin: 1rem 5%;
+}
+
+#quote{
+    display: block;
+    font-size: 200%;
+    font-weight: bold;
+    
+    text-align: center;
+}
+
+#about p{
+
+}
+
 /* Links section */
 
 #links{
@@ -158,6 +175,7 @@ nav{
 
 .overflow{
     overflow: hidden;
+
     transform: scale(1);
     transition: 0.3s;
 }
@@ -168,18 +186,21 @@ nav{
     flex-grow: 1;
     display: inline-block;
     margin: 0.8rem 0.8rem 0 0;
+}
 
+#links h2{
     text-align: center;
     color: white;
+    text-decoration: none;
 }
 
 #link1{
-    background: url('../images/div1500.jpg') center no-repeat;
+    background: url('../images/div1a.jpg') center no-repeat;
     background-size: 100%;
 }
 
 #link2{
-    background: url('../images/div2500.jpg') center no-repeat;
+    background: url('../images/div2.jpg') center no-repeat;
     background-size: 100%;
 }
 
