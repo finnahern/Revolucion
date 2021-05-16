@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    text-decoration: none;
 }
 
 html{
@@ -196,15 +197,17 @@ nav{
 
 .image h2{
     text-align: center;
-    justify-content: center;
     color: white;
-    text-decoration: none!important;
+    text-decoration: none;
+    
+    display: flex;
+    justify-content: center;
 }
 
 .image p{
     color: white;
-    text-decoration: none!important;
-    margin: 2rem;
+    font-size: 150%;
+    margin: 5rem 2rem 0 2rem;
 }
 
 #link1, #link2, #link3, #link4{
@@ -261,6 +264,24 @@ footer i{
 
 footer a{
     padding: 2%;
+}
+
+/* Media queries */
+
+/* For larger screens 1200px and wider */
+
+@media screen and (min-width: 1200px){
+    .mobilenav{
+        display: none;
+    }
+
+    #desktopnav{
+        display: flex;
+    }
+
+    #links a{
+        width: calc(100% * (1/4) - 3.2rem);
+    }
 }
 
 /* Google fonts import */
