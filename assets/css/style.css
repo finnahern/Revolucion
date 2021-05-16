@@ -178,13 +178,6 @@ nav{
     margin: 0 0 0.8rem 0.8rem;
 }
 
-.overflow{
-    overflow: hidden;
-
-    transform: scale(1);
-    transition: 0.3s;
-}
-
 #links a{
     height: 32rem;
     width: calc(100% * (1/2) - 3.2rem);
@@ -193,10 +186,29 @@ nav{
     margin: 0.8rem 0.8rem 0 0;
 }
 
-#links h2{
+.overflow{
+    overflow: hidden;
+    position: relative;
+
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.image h2{
     text-align: center;
+    justify-content: center;
     color: white;
-    text-decoration: none;
+    text-decoration: none!important;
+}
+
+.image p{
+    color: white;
+    text-decoration: none!important;
+    margin: 2rem;
+}
+
+#link1, #link2, #link3, #link4{
+    height: 32rem;
 }
 
 #link1{
@@ -219,7 +231,7 @@ nav{
     background-size: 100%;
 }
 
-.page-link:hover{
+.image:hover{
     transform: scale(1.05);
     transition: 0.3s;
 }
