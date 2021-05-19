@@ -4,29 +4,26 @@
     border: none;
     text-decoration: none;
 }
-
 html{
     font-size: 10px;
 }
-
 body{
     font-family: 'Faustina', serif;
     font-weight: 300;
     color: #3a3a3a;
 }
-
+.text-dark {
+    font-size: 5rem;
+}
 h1, h2{
     font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
     color: #252525;
 }
-
 p{
     font-size: 160%;
 }
-
 /* Header */
-
 header{
     height: 6rem;
     font-size: 160%;
@@ -34,92 +31,77 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-
+.navbar-light .navbar-nav .nav-link {
+    font-size: 4rem;
+}
+.navbar-light .navbar-toggler-icon {
+    font-size: 5rem;
+}
 #flag{
     margin: 0 0.5rem 0 0.5rem;
 }
-
 #logo{
     display: flex;
     align-items: center;
-    text-decoration: none;
 }
-
 #flag{
     height: 3.5rem;
 }
-
 header a{
     text-decoration: none;
 }
-
 /* Mobile nav bar */
-
 nav{
     display: flex;
     align-content: center;
 }
-
 .mobilenav{
     overflow: hidden;
     position: relative;
 }
-
 .mobilenav #navlinks{
     display: none;
 }
-
 .mobilenav a.icon {
     color: black;
     display: flex;
     align-items: center;
 }
-
 #navlinks{
     overflow: hidden;
     background-color: #f9f9f9;
     position: relative;
 }
-
 #desktopnav{
     display: none;
 }
-
 /* Desktop nav bar */
-
 #menu{
     font-size: 110%;
     letter-spacing: 0.2rem;
     direction: rtl;
 }
-
 #menu li{
     display: block;
     float: right;
     list-style-type: none;
     margin: 0 3rem 0 0;
 }
-
 #menu a{
     text-decoration: none;
     color: inherit;
 }
-
 #menu a:hover{
     border-bottom: 1px solid #3a3a3a;
 }
-
 .active{
     border-bottom: 1px solid #3a3a3a;
 }
-
 /* Dropdown menu */
-
 .fa{
     opacity: 0.8;
     font-size: 80%;
 } 
-
 .dropdowncontent{
     display: none;
     overflow: hidden;
@@ -127,59 +109,47 @@ nav{
     background-color: #f9f9f9;
     min-width: 16rem;
 }
-
 .dropdowncontent a{
     padding: 1.2rem 1.6rem;
     text-decoration: none;
     display: block;
 }
-
 .dropdown:hover .dropdowncontent {
     display: block;
 }
-
 /* Hero image */
-
 #heroimage{
     background: url('../images/mainbanner500.jpg') no-repeat center;
     height: 50rem;
     width: 100%;
     margin: 0;
 }
-
 /* About section */
-
 #about{
     display: block;
     margin: 1rem 5%;
 }
-
 #quote{
     display: block;
     font-size: 250%;
     font-weight: bold;
     text-align: center;
 }
-
 #quoteattr{
     font-weight: bold;
     text-align: right;
     margin-right: 10rem;
 }
-
 #aboutbody{
     margin: 1rem;
 }
-
 /* Links section */
-
 #links{
     overflow: hidden; 
     display: flex;
     flex-wrap: wrap;
     margin: 0 0 0.8rem 0.8rem;
 }
-
 #links a{
     height: 32rem;
     width: calc(100% * (1/2) - 3.2rem);
@@ -187,104 +157,80 @@ nav{
     display: inline-block;
     margin: 0.8rem 0.8rem 0 0;
 }
-
 .overflow{
     overflow: hidden;
     position: relative;
-
     transform: scale(1);
     transition: 0.3s;
 }
-
 .image h2{
     text-align: center;
     color: white;
     text-decoration: none;
-    
     display: flex;
     justify-content: center;
 }
-
 .image p{
     color: white;
     font-size: 150%;
     margin: 5rem 2rem 0 2rem;
 }
-
 #link1, #link2, #link3, #link4{
     height: 32rem;
 }
-
 #link1{
     background: url('../images/div1a.jpg') center no-repeat;
     background-size: 100%;
 }
-
 #link2{
     background: url('../images/div2.jpg') center no-repeat;
     background-size: 100%;
 }
-
 #link3{
     background: url('../images/div3500.jpg') center no-repeat;
     background-size: 100%;
 }
-
 #link4{
     background: url('../images/div4500.jpg') center no-repeat;
     background-size: 100%;
 }
-
 .image:hover{
     transform: scale(1.05);
     transition: 0.3s;
 }
-
 .page-link > h2{
     color: white;
 }
-
 /* footer */
-
 footer{
     height: 10rem;
     width: 100%;
     left: 0;
     bottom: 0;
     background-color: #3a3a3a;
-    
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
 footer i{
     font-size: 160%;
     color: #fff;
 }
-
 footer a{
     padding: 2%;
 }
-
 /* Media queries */
-
 /* For larger screens 1200px and wider */
-
 @media screen and (min-width: 1200px){
     .mobilenav{
         display: none;
     }
-
     #desktopnav{
         display: flex;
     }
-
     #links a{
         width: calc(100% * (1/4) - 3.2rem);
     }
 }
-
 /* Google fonts import */
-
 @import url("https://fonts.googleapis.com/css2?family=Faustina&family=Libre+Baskerville&display=swap")
