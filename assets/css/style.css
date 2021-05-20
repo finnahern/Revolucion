@@ -53,11 +53,16 @@ header a{
     text-decoration: none;
 }
 
-/* Mobile nav bar */
+/* Nav bar */
 
 nav{
     display: flex;
     align-content: center;
+}
+
+.navbar-nav{
+    display: flex;
+    align-content: right;
 }
 
 .mobilenav{
@@ -90,7 +95,6 @@ nav{
 #menu{
     font-size: 110%;
     letter-spacing: 0.2rem;
-    direction: rtl;
 }
 
 #menu li{
