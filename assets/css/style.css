@@ -65,81 +65,15 @@ nav{
     align-content: right;
 }
 
-.mobilenav{
-    overflow: hidden;
-    position: relative;
+.nav-link{
+    margin-right: 2.6rem;
 }
-
-.mobilenav #navlinks{
-    display: none;
-}
-
-.mobilenav a.icon {
-    color: black;
-    display: flex;
-    align-items: center;
-}
-
-#navlinks{
-    overflow: hidden;
-    background-color: #f9f9f9;
-    position: relative;
-}
-
-#desktopnav{
-    display: none;
-}
-
-/* Desktop nav bar */
-
-#menu{
-    font-size: 110%;
-    letter-spacing: 0.2rem;
-}
-
-#menu li{
-    display: block;
-    float: right;
-    list-style-type: none;
-    margin: 0 3rem 0 0;
-}
-
-#menu a{
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover{
-    border-bottom: 1px solid #3a3a3a;
-}
-
 .active{
-    border-bottom: 1px solid #3a3a3a;
+    text-decoration: underline;
 }
 
-/* Dropdown menu */
-
-.fa{
-    opacity: 0.8;
-    font-size: 80%;
-} 
-
-.dropdowncontent{
-    display: none;
-    overflow: hidden;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 16rem;
-}
-
-.dropdowncontent a{
-    padding: 1.2rem 1.6rem;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown:hover .dropdowncontent {
-    display: block;
+.dropdown-menu{
+    font-size: 90%;
 }
 
 /* Hero image */
