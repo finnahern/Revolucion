@@ -157,8 +157,12 @@ footer{
     align-items: center;
 }
 
+.icon{
+    justify-content: space-between;
+}
+
 footer i{
-    font-size: 250%;
+    font-size: 300%;
     color: #fff;
 }
 
