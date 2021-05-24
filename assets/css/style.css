@@ -118,14 +118,6 @@ nav{
     margin: 0 0 0.8rem 0.8rem;
 }
 
-#links a{
-    height: 32rem;
-    width: calc(100% * (1/2) - 3.2rem);
-    flex-grow: 1;
-    display: inline-block;
-    margin: 0.8rem 0.8rem 0 0;
-}
-
 .overflow{
     overflow: hidden;
     position: relative;
@@ -134,52 +126,21 @@ nav{
     transition: 0.3s;
 }
 
-.image h2{
+.card-title{
     text-align: center;
     color: white;
     text-decoration: none;
+    text-shadow: 1px 1px black;
     
     display: flex;
     justify-content: center;
 }
 
-.image p{
+.card p{
     color: white;
     font-size: 150%;
+    text-shadow: 1px 1px black;
     margin: 5rem 2rem 0 2rem;
-}
-
-#link1, #link2, #link3, #link4{
-    height: 32rem;
-}
-
-#link1{
-    background: url('../images/div1a.jpg') center no-repeat;
-    background-size: 100%;
-}
-
-#link2{
-    background: url('../images/div2500.jpg') center no-repeat;
-    background-size: 100%;
-}
-
-#link3{
-    background: url('../images/div3500.jpg') center no-repeat;
-    background-size: 100%;
-}
-
-#link4{
-    background: url('../images/div4500.jpg') center no-repeat;
-    background-size: 100%;
-}
-
-.image:hover{
-    transform: scale(1.05);
-    transition: 0.3s;
-}
-
-.page-link > h2{
-    color: white;
 }
 
 /* footer */
@@ -197,7 +158,7 @@ footer{
 }
 
 footer i{
-    font-size: 160%;
+    font-size: 250%;
     color: #fff;
 }
 
