@@ -78,11 +78,18 @@ nav{
 
 /* Hero image */
 
-#heroimage{
-    background: url('../images/mainbanner500.jpg') no-repeat center;
+.heroimage{
     height: 50rem;
     width: 100%;
     margin: 0;
+}
+
+#indexhero{
+    background: url('../images/indexhero.jpg') no-repeat center;
+}
+
+#prerevhero{
+    background: url('../images/prerevhero.jpg') no-repeat center;
 }
 
 /* About section */
@@ -143,6 +150,20 @@ nav{
     margin: 5rem 2rem 0 2rem;
 }
 
+/* Article sections */
+
+article{
+    margin: 5rem 15% 5rem 15%;
+}
+
+article h1{
+    font-weight: bold;
+}
+
+.source{
+    font-size: 1rem;
+}
+
 /* footer */
 
 footer{
@@ -155,10 +176,6 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.icon{
-    justify-content: space-between;
 }
 
 footer i{

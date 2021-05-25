@@ -24,8 +24,8 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -47,65 +47,41 @@
         </header>
 
         <!-- Hero image -->
-        <div class="heroimage" id="indexhero">
+        <div class="heroimage" id="prerevhero">
         </div>
-        
-        <!-- About section -->
-        <section id="about">
-            <p id="quote">"I am not a liberator. Liberators do not exist. <br> The people liberate themselves"</p>
-            <p id="quoteattr">- Ernesto "Che" Guevara</p>
 
-            <p id="aboutbody">Welcome to La Revolución, a website summarising the events of the Cuban Revolution from 1953 until 
-                the removal President Fulgencio Batista in 1959 and the aftermath. Click on one of the topics below to learn
-                more about this period of Cuba's history.</p>
-        </section>
-
-        <!-- Links section -->
-        <section id="links">
-            <a href="prerevolution.html" class="col-12 col-md-6 col-xl-3">
-                <div class="card bg-dark text-white" id="card1">
-                    <img src="assets/images/card1.jpg" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                    <h2 class="card-title">Pre-Revolution Cuba</h2>
-                    <p class="card-text">Fulgencio Batista seized power in a military coup and cancelled the 1952 elections. 
-                        His dictatorial regime would lay the ground work for the coming revolution</p>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="col-12 col-md-6 col-xl-3">
-                <div class="card bg-dark text-white" id="card2">
-                    <img src="assets/images/card2.jpg" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                    <h2 class="card-title">1953-1959: The Revolution</h2>
-                    <p class="card-text">Fulgencio Batista seized power in a military coup and cancelled the 1952 elections. 
-                        His dictatorial regime would lay the ground work for the coming revolution</p>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="col-12 col-md-6 col-xl-3">
-                <div class="card bg-dark text-white" id="card3">
-                    <img src="assets/images/card3.jpg" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                    <h2 class="card-title">Post-Revolution Cuba</h2>
-                    <p class="card-text">Fulgencio Batista seized power in a military coup and cancelled the 1952 elections. 
-                        His dictatorial regime would lay the ground work for the coming revolution</p>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="col-12 col-md-6 col-xl-3">
-                <div class="card bg-dark text-white" id="card4">
-                    <img src="assets/images/card4.jpg" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                    <h2 class="card-title">Timeline of Events</h2>
-                    <p class="card-text">Fulgencio Batista seized power in a military coup and cancelled the 1952 elections. 
-                        His dictatorial regime would lay the ground work for the coming revolution</p>
-                    </div>
-                </div>
-            </a>
-        </section>
+        <!-- Article body -->
+        <article>
+            <h1>Pre-Revolution Cuba</h1>
+            <div id="prerevarticle">
+                <p>
+                    In the decades following United States' invasion of Cuba in 1898, and formal independence 
+                    from the U.S. on 20 May 1902, Cuba experienced a period of significant instability, enduring 
+                    a number of revolts, coups and a period of U.S. military occupation. Fulgencio Batista, a 
+                    former soldier who had served as the elected president of Cuba from 1940 to 1944, became 
+                    president for the second time in 1952, after seizing power in a military coup and canceling
+                    the 1952 elections. Although Batista had been relatively progressive during his first term,
+                    in the 1950s he proved far more dictatorial and indifferent to popular concerns. While Cuba 
+                    remained plagued by high unemployment and limited water infrastructure, Batista antagonized 
+                    the population by forming lucrative links to organized crime and allowing American companies 
+                    to dominate the Cuban economy, especially sugar-cane plantations and other local resources.
+                    Although the US armed and politically supported the Batista dictatorship, later US presidents 
+                    recognized its corruption and the justifiability of removing it.
+                </p>
+                <p>
+                    During his first term as president, Batista had not been supported by the Communist Party of Cuba,
+                    and during his second term he became strongly anti-communist. Batista developed a rather weak security 
+                    bridge as an attempt to silence political opponents. In the months following the March 1952 coup, Fidel 
+                    Castro, then a young lawyer and activist, petitioned for the overthrow of Batista, whom he accused of 
+                    corruption and tyranny. However, Castro's constitutional arguments were rejected by the Cuban courts. After 
+                    deciding that the Cuban regime could not be replaced through legal means, Castro resolved to launch an armed 
+                    revolution. To this end, he and his brother Raúl founded a paramilitary organization known as "The Movement", 
+                    stockpiling weapons and recruiting around 1,200 followers from Havana's disgruntled working class by the end 
+                    of 1952.
+                </p>
+                <p class="source">Source: <a href="https://en.wikipedia.org/wiki/Cuban_Revolution">Wikipedia</a></p>
+            </div>
+        </article>
 
         <!-- Footer -->
         <footer>
@@ -134,7 +110,7 @@
 
         <!-- Bootstrap script -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-         <!-- font awesome script -->
-         <script src="https://kit.fontawesome.com/082df85970.js" crossorigin="anonymous"></script>
+            <!-- font awesome script -->
+            <script src="https://kit.fontawesome.com/082df85970.js" crossorigin="anonymous"></script>
     </body>
 </html>
