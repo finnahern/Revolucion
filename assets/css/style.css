@@ -19,6 +19,8 @@ h1, h2{
     font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
     color: #252525;
+    margin: 0;
+    line-height: 0;
 }
 
 p{
@@ -30,13 +32,6 @@ p{
 header{
     height: 6rem;
     font-size: 160%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#flag{
-    margin: 0 0.5rem 0 0.5rem;
 }
 
 #logo{
@@ -47,6 +42,7 @@ header{
 
 #flag{
     height: 3.5rem;
+    margin: 0 0.5rem 0 0.5rem;
 }
 
 header a{
@@ -57,12 +53,11 @@ header a{
 
 nav{
     display: flex;
-    align-content: center;
+    width: 100%;
 }
 
 .navbar-nav{
     display: flex;
-    align-content: right;
 }
 
 .nav-link{
@@ -156,8 +151,12 @@ article{
     margin: 5rem 15% 5rem 15%;
 }
 
-article h1{
+article h1, h4{
     font-weight: bold;
+}
+
+article li{
+    font-size: 1rem;
 }
 
 .source{
