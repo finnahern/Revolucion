@@ -28,13 +28,13 @@ h1, h2{
 }
 
 p{
-    font-size: 160%;
+    font-size: 2.4rem;
 }
 
 /* Header */
 
 header{
-    height: 8rem;
+    height: 7rem;
     font-size: 240%;
 }
 
@@ -51,6 +51,7 @@ header{
 
 #title{
     font-size: 4rem;
+    font-weight: 250;
 }
 
 .navbar-toggler-icon{
@@ -208,6 +209,19 @@ footer a{
 /* For larger screens 1200px and wider */
 
 @media screen and (min-width: 1200px){
+
+    p{
+        font-size: 1.6rem;
+    }
+
+    header{
+        height: 6rem;
+        font-size: 1.6rem;
+    }
+
+    #title{
+        font-size: 3rem;
+    }
 }
 
 /* Google fonts import */
