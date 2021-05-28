@@ -13,6 +13,10 @@ body{
     font-family: 'Faustina', serif;
     font-weight: 300;
     color: #3a3a3a;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 h1, h2{
@@ -103,6 +107,7 @@ nav{
 }
 
 #quoteattr{
+    font-weight: bold;
     text-align: right;
     margin-right: 10rem;
 }
@@ -175,6 +180,8 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    margin-top: auto;
 }
 
 footer i{
@@ -191,17 +198,6 @@ footer a{
 /* For larger screens 1200px and wider */
 
 @media screen and (min-width: 1200px){
-    .mobilenav{
-        display: none;
-    }
-
-    #desktopnav{
-        display: flex;
-    }
-
-    #links a{
-        width: calc(100% * (1/4) - 3.2rem);
-    }
 }
 
 /* Google fonts import */
