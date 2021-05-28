@@ -34,19 +34,28 @@ p{
 /* Header */
 
 header{
-    height: 6rem;
-    font-size: 160%;
+    height: 8rem;
+    font-size: 240%;
 }
 
 #logo{
     display: flex;
-    align-items: center;
+    align-items: baseline;
     text-decoration: none;
 }
 
 #flag{
     height: 3.5rem;
     margin: 0 0.5rem 0 0.5rem;
+}
+
+#title{
+    font-size: 4rem;
+}
+
+.navbar-toggler-icon{
+    font-size: 3rem;
+    margin: 10% 0 10% 0;
 }
 
 header a{
