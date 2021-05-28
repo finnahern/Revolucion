@@ -58,6 +58,7 @@ nav{
 
 .navbar-nav{
     display: flex;
+    align-items: right;
 }
 
 .nav-link{
@@ -102,7 +103,6 @@ nav{
 }
 
 #quoteattr{
-    font-weight: bold;
     text-align: right;
     margin-right: 10rem;
 }
