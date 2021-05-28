@@ -153,6 +153,10 @@ nav{
     justify-content: center;
 }
 
+.card-img{
+    opacity: .5;
+}
+
 .card p{
     color: white;
     font-size: 150%;
