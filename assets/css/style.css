@@ -102,8 +102,16 @@ nav{
     background: url('../images/prerevhero.jpg') no-repeat center;
 }
 
+#revhero{
+    background: url('../images/revhero.jpg') no-repeat center;
+}
+
 #postrevhero{
     background: url('../images/postrevhero.jpg') no-repeat center;
+}
+
+#timelinehero{
+    background: url('../images/timelinehero.jpg') no-repeat center;
 }
 
 /*--- About section ---*/
@@ -171,20 +179,25 @@ nav{
 /*--- Article sections ---*/
 
 article{
-    margin: 5rem 15% 5rem 15%;
+    margin: 5rem 20% 5rem 20%;
 }
 
-article h1, h4{
+article h1, h2{
     font-weight: bold;
     margin-bottom: 2rem;
 }
 
+article h3{
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
 article li{
-    font-size: 1rem;
+    font-size: 2.4rem;
 }
 
 .source{
-    font-size: 1rem;
+    font-size: 1.6rem;
 }
 
 /*--- Footer ---*/
@@ -234,6 +247,23 @@ footer a{
 
     .dropdown-menu{
         font-size: 1.5rem;
+    }
+
+    article{
+        margin: 5rem 25% 5rem 25%;
+    }
+
+    article h3{
+        font-weight: bold;
+        font-size: 1.6rem;
+    }
+    
+    article li{
+        font-size: 1.6rem;
+    }
+
+    .source{
+        font-size: 1rem;
     }
 }
 
