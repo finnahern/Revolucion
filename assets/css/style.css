@@ -114,11 +114,6 @@ nav{
     background: url('../images/timelinehero.jpg') no-repeat center;
 }
 
-#contacthero{
-    background: url('../images/contacthero.jpg') no-repeat center;
-    height: 192rem;
-}
-
 /*--- About section ---*/
 
 #about{
@@ -203,6 +198,38 @@ article li{
 
 .source{
     font-size: 1.6rem;
+}
+
+/*--- Contact Form ---*/
+
+.form-section {
+    clear: left;
+    background: url('../images/contacthero.jpg') no-repeat center;
+    height: 180rem;
+
+    font-size: 1.6rem;
+
+    background-size: cover;
+    background-position: center;
+}
+
+#contact-form{
+    margin: 15rem 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.7);
+    max-width: 50rem;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+#contact-form h3{
+    color: #fff;
+}
+
+#message{
+    height: 10rem;
+    width: 40rem;
 }
 
 /*--- Footer ---*/
