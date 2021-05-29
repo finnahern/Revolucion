@@ -31,7 +31,7 @@ p{
     font-size: 2.4rem;
 }
 
-/* Header */
+/*--- Header ---*/
 
 header{
     height: 7rem;
@@ -63,7 +63,7 @@ header a{
     text-decoration: none;
 }
 
-/* Nav bar */
+/*--- Nav bar ---*/
 
 nav{
     display: flex;
@@ -76,17 +76,17 @@ nav{
 }
 
 .nav-link{
-    margin-right: 2.6rem;
+    margin-right: 3rem;
 }
 .active{
     text-decoration: underline;
 }
 
 .dropdown-menu{
-    font-size: 90%;
+    font-size: 2rem;
 }
 
-/* Hero image */
+/*--- Hero image ---*/
 
 .heroimage{
     height: 50rem;
@@ -102,7 +102,11 @@ nav{
     background: url('../images/prerevhero.jpg') no-repeat center;
 }
 
-/* About section */
+#postrevhero{
+    background: url('../images/postrevhero.jpg') no-repeat center;
+}
+
+/*--- About section ---*/
 
 #about{
     display: block;
@@ -126,7 +130,7 @@ nav{
     margin: 1rem;
 }
 
-/* Links section */
+/*--- Links section ---*/
 
 #links{
     overflow: hidden; 
@@ -164,7 +168,7 @@ nav{
     margin: 5rem 2rem 0 2rem;
 }
 
-/* Article sections */
+/*--- Article sections ---*/
 
 article{
     margin: 5rem 15% 5rem 15%;
@@ -172,6 +176,7 @@ article{
 
 article h1, h4{
     font-weight: bold;
+    margin-bottom: 2rem;
 }
 
 article li{
@@ -182,7 +187,7 @@ article li{
     font-size: 1rem;
 }
 
-/* footer */
+/*--- Footer ---*/
 
 footer{
     height: 15rem;
@@ -208,7 +213,7 @@ footer a{
     padding: 2%;
 }
 
-/* Media queries */
+/*--- Media queries ---*/
 
 /* For larger screens 1200px and wider */
 
@@ -226,8 +231,12 @@ footer a{
     #title{
         font-size: 3rem;
     }
+
+    .dropdown-menu{
+        font-size: 1.5rem;
+    }
 }
 
-/* Google fonts import */
+/*--- Google fonts import ---*/
 
 @import url("https://fonts.googleapis.com/css2?family=Faustina&family=Libre+Baskerville&display=swap")
