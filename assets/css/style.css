@@ -114,6 +114,11 @@ nav{
     background: url('../images/timelinehero.jpg') no-repeat center;
 }
 
+#contacthero{
+    background: url('../images/contacthero.jpg') no-repeat center;
+    height: 192rem;
+}
+
 /*--- About section ---*/
 
 #about{
