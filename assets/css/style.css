@@ -14,7 +14,7 @@ body{
     font-weight: 300;
     color: #3a3a3a;
 
-    display: flex;
+    display: flex; /* Method used to anchor the footer per a video tutorial used: https://www.youtube.com/watch?v=yc2olxLgKLk&*/
     flex-direction: column;
     min-height: 100vh;
 }
@@ -248,7 +248,7 @@ footer{
     justify-content: space-evenly;
     align-items: center;
 
-    margin-top: auto;
+    margin-top: auto; /* Method used to anchor the footer per a video tutorial used: https://www.youtube.com/watch?v=yc2olxLgKLk&*/
 }
 
 footer i{
