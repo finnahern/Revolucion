@@ -69,6 +69,7 @@ The site was developed using the Gitpod IDE and deployed using Github pages. The
 
 - All HTML documents and the CSS stylesheet passed validation on the [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html#textarea).
 - Tested the site using the Chrome, Firefox and Edge browsers on a Windows desktop PC, the Chrome browser for Android on a OnePlus 6 phone as well as a variety of simulated mobile devices and screen sizes using the Chrome developer tools.
+- Any bugs discovered throughout development were minor and were quickly able to be identified. Larger ones were related to importing code segments from the Bootstrap templates for the nav bar which created issues being integrated with the existing code, foremost among them when I spent a few hours trying to figure out why the dropdown menu didn't work before realising that I had forgotten to import the Bootstrap Javascript source.
 
 ## Credits
 
@@ -84,6 +85,7 @@ Everyone at the Code Institute support team and Slack community.
 
 - [Template Bootstrap nav bar](https://getbootstrap.com/docs/4.0/components/navbar/)
 - [Bootstrap Image overlay cards for links section](https://getbootstrap.com/docs/4.0/components/card/)
+- Scripts for Bootstrap, Font Awesome and Google Fonts.
 
 ### Technology used
 
