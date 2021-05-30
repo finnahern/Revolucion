@@ -197,9 +197,9 @@ article li{
 .form-section {
     clear: left;
     background: url('../images/contacthero.jpg') no-repeat center;
-    height: 180rem;
+    height: 160rem;
 
-    font-size: 1.6rem;
+    font-size: 2.4rem;
 
     background-size: cover;
     background-position: center;
@@ -209,7 +209,7 @@ article li{
     margin: 15rem 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.7);
-    max-width: 50rem;
+    max-width: 60rem;
     position: absolute;
     left: 10%;
     padding: 30px;
@@ -217,11 +217,12 @@ article li{
 
 #contact-form h3{
     color: #fff;
+    font-size: 2.4rem;
 }
 
 #message{
     height: 10rem;
-    width: 40rem;
+    width: 50rem;
 }
 
 /*--- Footer ---*/
@@ -297,6 +298,15 @@ footer a{
     .source{
         font-size: 1rem;
     }
+
+    .form-section{
+        height: 120rem;
+        font-size: 1.6rem;
+    }
+
+    #contact-form{
+        max-width: 50rem;
+    }
 }
 
 /* For large desktop screens 1500px and wider */
@@ -310,6 +320,7 @@ footer a{
     .card p{
         font-size: 2rem;
     }
+}
 
 /*--- Google fonts import ---*/
 
