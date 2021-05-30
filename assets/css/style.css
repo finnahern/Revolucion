@@ -35,7 +35,7 @@ p{
 
 header{
     height: 7rem;
-    font-size: 240%;
+    font-size: 2.4rem;
 }
 
 #logo{
@@ -75,9 +75,6 @@ nav{
 
 .nav-link{
     margin-right: 3rem;
-}
-.active{
-    text-decoration: underline;
 }
 
 .dropdown-menu{
@@ -121,7 +118,7 @@ nav{
 
 #quote{
     display: block;
-    font-size: 250%;
+    font-size: 2.4rem;
     font-weight: bold;
     text-align: center;
 }
@@ -129,7 +126,7 @@ nav{
 #quoteattr{
     font-weight: bold;
     text-align: right;
-    margin-right: 10rem;
+    margin-right: 20%;
 }
 
 #aboutbody{
@@ -139,10 +136,9 @@ nav{
 /*--- Links section ---*/
 
 #links{
-    overflow: hidden; 
     display: flex;
     flex-wrap: wrap;
-    margin: 0 0 0.8rem 0.8rem;
+    margin-bottom: 0.8rem;
 }
 
 .card-title{
@@ -322,6 +318,10 @@ footer a{
 /* For large desktop screens 1500px and wider */
 
 @media screen and (min-width: 1500px){
+
+    #quoteattr{
+        margin-right: 30%;
+    }
 
     .card h2{
         font-size: 2rem;
