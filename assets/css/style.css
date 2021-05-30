@@ -147,14 +147,6 @@ nav{
     margin: 0 0 0.8rem 0.8rem;
 }
 
-.overflow{
-    overflow: hidden;
-    position: relative;
-
-    transform: scale(1);
-    transition: 0.3s;
-}
-
 .card-title{
     text-align: center;
     color: white;
@@ -171,7 +163,7 @@ nav{
 
 .card p{
     color: white;
-    font-size: 150%;
+    font-size: 2.4rem;
     text-shadow: 1px 1px black;
     margin: 5rem 2rem 0 2rem;
 }
@@ -281,6 +273,14 @@ footer a{
         font-size: 1.5rem;
     }
 
+    .card h2{
+        font-size: 1.6rem;
+    }
+
+    .card p{
+        font-size: 1.6rem;
+    }
+
     article{
         margin: 5rem 25% 5rem 25%;
     }
@@ -298,6 +298,18 @@ footer a{
         font-size: 1rem;
     }
 }
+
+/* For large desktop screens 1500px and wider */
+
+@media screen and (min-width: 1500px){
+
+    .card h2{
+        font-size: 2rem;
+    }
+
+    .card p{
+        font-size: 2rem;
+    }
 
 /*--- Google fonts import ---*/
 
