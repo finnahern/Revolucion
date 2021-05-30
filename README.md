@@ -80,6 +80,11 @@ David Malone for his support and encouragement.
 
 Everyone at the Code Institute support team and Slack community.
 
+### External code used
+
+- [Template Bootstrap nav bar](https://getbootstrap.com/docs/4.0/components/navbar/)
+- [Bootstrap Image overlay cards for links section](https://getbootstrap.com/docs/4.0/components/card/)
+
 ### Technology used
 
 - HTML
