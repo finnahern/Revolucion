@@ -264,7 +264,6 @@ footer a{
 /*--- Media queries ---*/
 
 /* For larger screens 1200px and wider */
-
 @media screen and (min-width: 1200px){
 
     p{
@@ -316,7 +315,6 @@ footer a{
 }
 
 /* For large desktop screens 1500px and wider */
-
 @media screen and (min-width: 1500px){
 
     #quoteattr{
@@ -333,5 +331,4 @@ footer a{
 }
 
 /*--- Google fonts import ---*/
-
 @import url("https://fonts.googleapis.com/css2?family=Faustina&family=Libre+Baskerville&display=swap")
