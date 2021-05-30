@@ -51,7 +51,6 @@ header{
 
 #title{
     font-size: 4rem;
-    font-weight: 250;
 }
 
 .navbar-toggler-icon{
@@ -72,7 +71,6 @@ nav{
 
 .navbar-nav{
     display: flex;
-    align-items: right;
 }
 
 .nav-link{
@@ -225,6 +223,22 @@ article li{
     width: 50rem;
 }
 
+.submit{
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.submit:hover{
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
 /*--- Footer ---*/
 
 footer{
@@ -302,10 +316,6 @@ footer a{
     .form-section{
         height: 100rem;
         font-size: 1.6rem;
-    }
-
-    #contact-form{
-        max-width: 50rem;
     }
 }
 
